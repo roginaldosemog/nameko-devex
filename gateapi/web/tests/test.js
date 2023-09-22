@@ -1,6 +1,11 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@playwright/test'
 
-test('about page has expected h1', async ({ page }) => {
-	await page.goto('/about');
-	expect(await page.textContent('h1')).toBe('About this app');
-});
+test.describe('Home Page', () => {
+	test.beforeEach(async ({ page }) => {
+		await page.goto('/')
+	})
+
+	test('has expected title', async ({ page }) => {
+		await expect(page).toHaveTitle(/Home/)
+	})
+})
