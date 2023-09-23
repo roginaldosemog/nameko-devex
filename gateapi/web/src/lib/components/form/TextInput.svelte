@@ -11,12 +11,6 @@
 </label>
 
 <style lang="scss">
-	label {
-		font-size: 16px;
-		font-family: amplitude-wide;
-		font-weight: 500;
-	}
-
 	input {
 		border-radius: 4px;
 		height: 48px;

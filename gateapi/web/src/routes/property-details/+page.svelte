@@ -1,6 +1,7 @@
 <script>
 	import PropertyImage from '$lib/components/PropertyImage.svelte'
 	import TextInput from '$lib/components/form/TextInput.svelte'
+	import PropertyTypeSelect from '$lib/components/form/PropertyTypeSelect.svelte'
 </script>
 
 <svelte:head>
@@ -8,11 +9,11 @@
 </svelte:head>
 
 <div class="container min-h-screen">
-	<section class="pt-11">
+	<section class="pt-10">
 		<div class="flex gap-x-5">
 			<div class="basis-full sm:basis-1/2">
 				<h1 class="text-3xl md:text-4xl pb-2">Property details</h1>
-				<p class="text-lg pb-11">
+				<p class="text-lg pb-10">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim veniam.
@@ -20,13 +21,16 @@
 				<div class="w-full pb-4">
 					<TextInput label="Property Name" name="property-name" type="text" />
 				</div>
-				<div class="w-full">
+				<div class="w-full pb-4">
 					<TextInput label="Address" name="address" type="text" />
 				</div>
 			</div>
 			<div class="hidden sm:flex basis-1/2 justify-end items-center">
 				<PropertyImage />
 			</div>
+		</div>
+		<div class="w-full">
+			<PropertyTypeSelect />
 		</div>
 	</section>
 </div>

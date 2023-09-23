@@ -40,3 +40,14 @@ p {
 	font-weight: 300;
 	font-family: amplitude-wide, sans-serif;
 }
+
+label,
+.label {
+	font-size: 16px;
+	font-family: amplitude-wide;
+	font-weight: 500;
+}
+
+.text-shadow {
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
