@@ -7,7 +7,7 @@
 
 <label class="flex flex-col">
 	{label}
-	<input {name} {type} {placeholder} />
+	<input class="px-3" {name} {type} {placeholder} />
 </label>
 
 <style lang="scss">

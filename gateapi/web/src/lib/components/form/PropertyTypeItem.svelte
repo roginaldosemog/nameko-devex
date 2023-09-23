@@ -1,12 +1,10 @@
 <script>
 	export let type, icon, label, selected, setSelectedItem
 	const isSelected = selected === type ? 'property-icon-selected' : ''
-
-	console.log(selected)
 </script>
 
 <button
-	class="basis-1/4 sm:basis-1/2 md:basis-full flex justify-center items-center space-x-3 property-icon {isSelected}"
+	class="basis-1/4 flex justify-center items-center space-x-3 property-icon {isSelected}"
 	id={type}
 	on:click={setSelectedItem(type)}
 >
