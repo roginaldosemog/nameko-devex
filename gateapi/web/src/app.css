@@ -25,11 +25,11 @@
 }
 
 body {
+	color: #35344c;
 	font-family: amplitude-wide, sans-serif;
 }
 
 h1 {
-	color: #35344c;
 	font-weight: 400;
 	line-height: auto;
 	-webkit-text-stroke: 1px black;
@@ -37,7 +37,6 @@ h1 {
 }
 
 p {
-	color: #35344c;
 	font-weight: 300;
 	font-family: amplitude-wide, sans-serif;
 }
