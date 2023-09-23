@@ -4,7 +4,7 @@
 </script>
 
 <header class="bg-white shadow-md">
-	<nav class="container mx-auto flex p-2">
+	<nav class="container h-16 flex items-center">
 		<div class="flex">
 			<a href="/" class="mr-6">
 				<img class="h-12 w-auto" src={logo} alt="Airship logo" />

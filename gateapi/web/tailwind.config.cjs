@@ -1,13 +1,19 @@
 module.exports = {
 	content: ['./src/**/*.html', './src/**/*.svelte'],
 	theme: {
-		screens: {
-			sm: '480px',
-			md: '768px',
-			lg: '976px',
-			xl: '1440px',
+		extend: {
+			container: {
+				center: true,
+				padding: {
+					DEFAULT: '1rem',
+					lg: '1.25rem',
+				},
+				screens: {
+					DEFAULT: '100%',
+					lg: '896px',
+				},
+			},
 		},
-		extend: {},
 	},
 	plugins: [],
 }
