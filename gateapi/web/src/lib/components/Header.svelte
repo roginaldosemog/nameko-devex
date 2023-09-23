@@ -12,7 +12,7 @@
 		</div>
 		<div class="flex items-center space-x-4">
 			{#each Object.entries(ROUTES) as [name, route]}
-				<a class="text-sm font-semibold text-gray-900" href={route}>{name}</a>
+				<a class="text-sm font-medium text-gray-900" href={route}>{name}</a>
 			{/each}
 		</div>
 	</nav>
